@@ -6,6 +6,10 @@ var feet = Math.floor(heightInInches / 12);
 var inches = heightInInches % 12;
 var weightInLbs = (weightInKg * 2.20462).toFixed(3);
 
+alert("Name: " + nickname + 
+      "\nHeight: " + feet + "'" + inches + "''" +
+      "\nWeight: " + weightInLbs + " lbs");
+
 document.write("Name: " + nickname + "<br>");
 document.write("Height: " + feet + "'" + inches + "''<br>");
 document.write("Weight: " + weightInLbs + " lbs<br>");
